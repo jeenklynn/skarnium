@@ -1,0 +1,109 @@
+/* global settings start */
+a {text-decoration: none;} a:hover{text-decoration: underline;}
+/* global setting end */
+
+/* navbar start */
+.navbar {
+    overflow: hidden;
+  }
+.navbar a {float: left; display: block; text-align: center; padding: 14px 16px; font-size: 30px; text-decoration: none;}
+.navbar a:hover {text-decoration: underline;}
+.navbar .icon {display: none; color: #ffffff;}
+@media screen and (max-width: 600px) {  
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {float: right; display: block;}
+}
+@media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {position: absolute; right: 0; top: 0;}
+    .navbar.responsive a {float: none; display: block; text-align: left;}
+}
+/* html code;
+<div class="navbar sticky" id="navBarDefault">
+    <a href="#" class="color-is-green"><i class="fas fa-terminal"></i>test</a>
+    <a href="javascript:void(0);" class="icon" onclick="navbarResponsive()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+*/
+/* navbar end */
+
+/* grid start */
+.column-is-10 {float: left; width: 10%; padding: 10px;} .column-is-15 {float: left; width: 15%; padding: 10px;}
+.column-is-20 {float: left; width: 20%; padding: 10px;} .column-is-25 {float: left; width: 25%; padding: 10px;}
+.column-is-30 {float: left; width: 30%; padding: 10px;} .column-is-35 {float: left; width: 35%; padding: 10px;}
+.column-is-40 {float: left; width: 40%; padding: 10px;} .column-is-40 {float: left; width: 45%; padding: 10px;}
+.column-is-50 {float: left; width: 50%; padding: 10px;} .column-is-55 {float: left; width: 55%; padding: 10px;}
+.column-is-60 {float: left; width: 60%; padding: 10px;} .column-is-65 {float: left; width: 65%; padding: 10px;}
+.column-is-70 {float: left; width: 70%; padding: 10px;} .column-is-75 {float: left; width: 75%; padding: 10px;}
+.column-is-80 {float: left; width: 80%; padding: 10px;} .column-is-85 {float: left; width: 85%; padding: 10px;}
+.column-is-90 {float: left; width: 90%; padding: 10px;}
+.row:after {content: ""; display: table; clear: both;} 
+@media screen and (max-width: 600px) {
+  .mobile-responsive {width: 100%;}
+  .hidden-on-mobile {visibility: hidden;}
+}
+/* html code;
+<div class="row">
+    <div class="column-is-50">
+    <a href="#">test</a>
+    </div>
+    <div class="column-is-50">
+    <a href="#">test</a>
+    </div>
+</div>
+*/
+/* grid end */
+
+/* alert start */
+.alert {padding: 10px; margin-bottom: 15px;}
+.closebtn {margin-left: 15px; font-weight: bold; float: right; font-size: 22px; line-height: 20px; cursor: pointer; transition: 0.3s;}
+/* html code;
+<div class="alert color-is-white bg-color-is-teal">
+<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+Test
+</div> 
+*/
+/* alert end */
+
+/* colors start */
+.color-is-black {color: #000000;} .color-is-gray {color: #868488;} .color-is-white {color: #ffffff;}
+.color-is-blue {color: #007cff;} .color-is-aqua {color: #00ffec;} .color-is-teal {color: #008080;}
+.color-is-green {color: #10781e;} .color-is-lime {color: #02ec57;} .color-is-green-02 {color: #16A085;}
+.color-is-pink {color: #d55cfb;} .color-is-purple {color: #9932CC;} .color-is-purple-02 {color: #4A235A;}
+.color-is-red {color: #FF0000;} .color-is-orange {color: #ec7302;} .color-is-yellow {color: #ADFF2F;}
+/* html code;
+<p class="color-is-blue">test</p>
+*/
+/* colors end */
+
+/* background colors start */
+.bg-color-is-black {background-color: #000000;} .bg-color-is-gray {background-color: #868488;} .bg-color-is-white {background-color: #ffffff;}
+.bg-color-is-blue {background-color: #007cff;} .bg-color-is-aqua {background-color: #00ffec;} .bg-color-is-teal {background-color: #008080;}
+.bg-color-is-green {background-color: #10781e;} .bg-color-is-lime {background-color: #02ec57;} .bg-color-is-green-02 {background-color: #16A085;}
+.bg-color-is-pink {background-color: #d55cfb;} .bg-color-is-purple {background-color: #9932CC;} .bg-color-is-purple-02 {background-color: #4A235A;}
+.bg-color-is-red {background-color: #d71717;} .bg-color-is-orange {background-color: #ec7302;} .bg-color-is-yellow {background-color: #ADFF2F;}
+/* html code;
+<p class="bg-color-is-blue">test</p>
+*/
+/* background colors end */
+
+/* font sizes start */
+.font-size-is-50 {font-size: 50%;} .font-size-is-60 {font-size: 60%;} .font-size-is-70 {font-size: 70%;}
+.font-size-is-80 {font-size: 80%;} .font-size-is-90 {font-size: 90%;} .font-size-is-110 {font-size: 110%;}
+.font-size-is-120 {font-size: 120%;} .font-size-is-130 {font-size: 130%;} .font-size-is-140 {font-size: 140%;}
+.font-size-is-150 {font-size: 150%;} .font-size-is-160 {font-size: 160%;} .font-size-is-170 {font-size: 170%;}
+.font-size-is-180 {font-size: 180%;} .font-size-is-190 {font-size: 190%;} .font-size-is-200 {font-size: 200%;}
+/* html code;
+<p class="font-size-is-180">test</p>
+*/
+/* font sizes end */
+
+/* opacity start */
+.opacity-is-01 {opacity: 0.1;} .-is-opacity02 {opacity: 0.2;} .opacity-is-03 {opacity: 0.3;}
+.opacity-is-04 {opacity: 0.4;} .-is-opacity05 {opacity: 0.5;} .opacity-is-06 {opacity: 0.6;}
+.opacity-is-07 {opacity: 0.7;} .opacity-is-08 {opacity: 0.8;} .opacity-is-09 {opacity: 0.9;}
+/* html code;
+<p class="opacity-is-06">test</p>
+*/
+/* opacity end */
