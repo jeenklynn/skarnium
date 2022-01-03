@@ -20,7 +20,7 @@ a {text-decoration: none;} a:hover{text-decoration: underline;}
 }
 /* html code;
 <div class="navbar sticky" id="navBarDefault">
-    <a href="#" class="color-is-blue"></i>test</a>
+    <a href="#">test</a>
     <a href="javascript:void(0);" class="icon" onclick="navbarResponsive()">
       <i class="fa fa-bars"></i>
     </a>
