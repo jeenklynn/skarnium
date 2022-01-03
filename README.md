@@ -1,3 +1,3 @@
 # skarnium
 
-![alt text](https://i.hizliresim.com/9w06mfb.png)
+![alt text](https://i.hizliresim.com/8op0v02.png)
