@@ -1,3 +1,5 @@
+.row:after {content: ""; display: table; clear: both;} 
+
 .column-is-10 {float: left; width: 10%; padding: 10px;} 
 .column-is-15 {float: left; width: 15%; padding: 10px;}
 .column-is-20 {float: left; width: 20%; padding: 10px;} 
@@ -15,25 +17,25 @@
 .column-is-80 {float: left; width: 80%; padding: 10px;} 
 .column-is-85 {float: left; width: 85%; padding: 10px;}
 .column-is-90 {float: left; width: 90%; padding: 10px;}
-.row:after {content: ""; display: table; clear: both;} 
+
 @media screen and (max-width: 600px) {
-.column-is-10 {float: left; width: 100%; padding: 10px;} 
-.column-is-15 {float: left; width: 100%; padding: 10px;}
-.column-is-20 {float: left; width: 100%; padding: 10px;} 
-.column-is-25 {float: left; width: 100%; padding: 10px;}
-.column-is-30 {float: left; width: 100%; padding: 10px;} 
-.column-is-35 {float: left; width: 100%; padding: 10px;}
-.column-is-40 {float: left; width: 100%; padding: 10px;} 
-.column-is-40 {float: left; width: 100%; padding: 10px;}
-.column-is-50 {float: left; width: 100%; padding: 10px;} 
-.column-is-55 {float: left; width: 100%; padding: 10px;}
-.column-is-60 {float: left; width: 100%; padding: 10px;} 
-.column-is-65 {float: left; width: 100%; padding: 10px;}
-.column-is-70 {float: left; width: 100%; padding: 10px;} 
-.column-is-75 {float: left; width: 100%; padding: 10px;}
-.column-is-80 {float: left; width: 100%; padding: 10px;} 
-.column-is-85 {float: left; width: 100%; padding: 10px;}
-.column-is-90 {float: left; width: 100%; padding: 10px;}
+  .column-is-10 {float: left; width: 100%; padding: 10px;} 
+  .column-is-15 {float: left; width: 100%; padding: 10px;}
+  .column-is-20 {float: left; width: 100%; padding: 10px;} 
+  .column-is-25 {float: left; width: 100%; padding: 10px;}
+  .column-is-30 {float: left; width: 100%; padding: 10px;} 
+  .column-is-35 {float: left; width: 100%; padding: 10px;}
+  .column-is-40 {float: left; width: 100%; padding: 10px;} 
+  .column-is-40 {float: left; width: 100%; padding: 10px;}
+  .column-is-50 {float: left; width: 100%; padding: 10px;} 
+  .column-is-55 {float: left; width: 100%; padding: 10px;}
+  .column-is-60 {float: left; width: 100%; padding: 10px;} 
+  .column-is-65 {float: left; width: 100%; padding: 10px;}
+  .column-is-70 {float: left; width: 100%; padding: 10px;} 
+  .column-is-75 {float: left; width: 100%; padding: 10px;}
+  .column-is-80 {float: left; width: 100%; padding: 10px;} 
+  .column-is-85 {float: left; width: 100%; padding: 10px;}
+  .column-is-90 {float: left; width: 100%; padding: 10px;}
 }
 
 .color-is-black {color: #000000;} 
