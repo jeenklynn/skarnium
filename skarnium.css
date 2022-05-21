@@ -30,9 +30,12 @@ general page
 */
 
 body {
-    font-family: myFont;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container {
+    padding: 10px;
+}
 /* 
 
 /*
